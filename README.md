@@ -63,6 +63,22 @@ CREATE TABLE registrations (
   registered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+*STRUCTURE
+_____________________________________________________________
+EventManagement/
+├── Main.java
+├── DBConfig.java
+├── dao/
+│   ├── UserDAO.java
+│   ├── EventDAO.java
+│   └── RegistrationDAO.java
+├── model/
+│   ├── User.java
+│   ├── Event.java
+│   └── Registration.java
+└── service/
+    ├── AuthService.java
+    └── NotificationService.java
 ________________________________________________________________________
 ⚙️ Structure & Components
 _____________________________________
@@ -78,4 +94,12 @@ AuthService: Manages authentication & registration
 NotificationService: Uses ExecutorService to schedule reminders
 
 Main App: Interactive console logic with user/admin flows and robust role checks
+___________________________________________________________________________________
+Devloper Info
+__________________________________________________
+Name:Pranali kavade
+
+Email:pranalikavade73@gmail.com
+
+github:pranalikavade
 
